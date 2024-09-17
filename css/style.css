@@ -500,3 +500,11 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+.circular-logo-image {
+    width: 110px; /* Set your fixed width */
+    height: 110px; /* Set your fixed height */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire element without distortion */
+    border: 5px solid var(--primary);
+}
